@@ -1,0 +1,48 @@
+Starting ENSIME server: /Library/Java/JavaVirtualMachines/jdk1.8.0_66.jdk/Contents/Home/bin/java -classpath /Library/Java/JavaVirtualMachines/jdk1.8.0_66.jdk/Contents/Home/lib/tools.jar:/Users/rk/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.7.jar:/Users/rk/.ivy2/cache/org.ensime/ensime_2.11/jars/ensime_2.11-0.9.10-SNAPSHOT.jar:/Users/rk/.ivy2/cache/org.scala-lang/scala-compiler/jars/scala-compiler-2.11.7.jar:/Users/rk/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.11.7.jar:/Users/rk/.ivy2/cache/org.scala-lang.modules/scala-xml_2.11/bundles/scala-xml_2.11-1.0.4.jar:/Users/rk/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.11/bundles/scala-parser-combinators_2.11-1.0.4.jar:/Users/rk/.ivy2/cache/com.chuusai/shapeless_2.11/bundles/shapeless_2.11-2.0.0.jar:/Users/rk/.ivy2/cache/com.github.stacycurl/pimpathon-core_2.11/jars/pimpathon-core_2.11-1.1.0.jar:/Users/rk/.ivy2/cache/org.parboiled/parboiled-scala_2.11/bundles/parboiled-scala_2.11-1.1.6.jar:/Users/rk/.ivy2/cache/org.parboiled/parboiled-core/bundles/parboiled-core-1.1.6.jar:/Users/rk/.ivy2/cache/com.h2database/h2/jars/h2-1.4.182.jar:/Users/rk/.ivy2/cache/com.typesafe.slick/slick_2.11/bundles/slick_2.11-2.1.0.jar:/Users/rk/.ivy2/cache/com.typesafe/config/bundles/config-1.2.1.jar:/Users/rk/.ivy2/cache/com.jolbox/bonecp/bundles/bonecp-0.8.0.RELEASE.jar:/Users/rk/.ivy2/cache/com.google.guava/guava/bundles/guava-15.0.jar:/Users/rk/.ivy2/cache/org.apache.commons/commons-vfs2/jars/commons-vfs2-2.0.jar:/Users/rk/.ivy2/cache/commons-logging/commons-logging/jars/commons-logging-1.1.1.jar:/Users/rk/.ivy2/cache/org.apache.maven.scm/maven-scm-api/jars/maven-scm-api-1.4.jar:/Users/rk/.ivy2/cache/org.codehaus.plexus/plexus-utils/jars/plexus-utils-1.5.6.jar:/Users/rk/.ivy2/cache/org.apache.maven.scm/maven-scm-provider-svnexe/jars/maven-scm-provider-svnexe-1.4.jar:/Users/rk/.ivy2/cache/org.apache.maven.scm/maven-scm-provider-svn-commons/jars/maven-scm-provider-svn-commons-1.4.jar:/Users/rk/.ivy2/cache/regexp/regexp/jars/regexp-1.3.jar:/Users/rk/.ivy2/cache/org.apache.lucene/lucene-core/jars/lucene-core-4.7.2.jar:/Users/rk/.ivy2/cache/org.apache.lucene/lucene-analyzers-common/jars/lucene-analyzers-common-4.7.2.jar:/Users/rk/.ivy2/cache/org.ow2.asm/asm-commons/jars/asm-commons-5.0.3.jar:/Users/rk/.ivy2/cache/org.ow2.asm/asm-tree/jars/asm-tree-5.0.3.jar:/Users/rk/.ivy2/cache/org.ow2.asm/asm/jars/asm-5.0.3.jar:/Users/rk/.ivy2/cache/org.ow2.asm/asm-util/jars/asm-util-5.0.3.jar:/Users/rk/.ivy2/cache/com.danieltrinh/scalariform_2.11/jars/scalariform_2.11-0.1.5.jar:/Users/rk/.ivy2/cache/org.scala-lang/scalap/jars/scalap-2.11.7.jar:/Users/rk/.ivy2/cache/com.typesafe.akka/akka-actor_2.11/jars/akka-actor_2.11-2.3.6.jar:/Users/rk/.ivy2/cache/com.typesafe.akka/akka-slf4j_2.11/jars/akka-slf4j_2.11-2.3.6.jar:/Users/rk/.ivy2/cache/ch.qos.logback/logback-classic/jars/logback-classic-1.1.2.jar:/Users/rk/.ivy2/cache/ch.qos.logback/logback-core/jars/logback-core-1.1.2.jar:/Users/rk/.ivy2/cache/org.slf4j/jul-to-slf4j/jars/jul-to-slf4j-1.7.7.jar:/Users/rk/.ivy2/cache/org.slf4j/slf4j-api/jars/slf4j-api-1.7.7.jar:/Users/rk/.ivy2/cache/org.slf4j/jcl-over-slf4j/jars/jcl-over-slf4j-1.7.7.jar:/Users/rk/.ivy2/cache/org.scala-refactoring/org.scala-refactoring.library_2.11/jars/org.scala-refactoring.library_2.11-0.6.2.jar -Xss2m -Xms1024m -Xmx1024m -XX:ReservedCodeCacheSize=128m -XX:MaxMetaspaceSize=256m -Densime.config=/Users/rk/Developer/Scala/HelloWorld/.ensime org.ensime.server.Server
+16:03:57.841 [default-akka.actor.default-dispatcher-3] INFO  akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+16:03:57.854 [main] INFO  org.ensime.server.Server - ENSIME Server on 127.0.0.1:65149
+16:03:57.856 [main] INFO  org.ensime.server.Server - Environment:
+  OS : Mac OS X
+  Java : Java HotSpot(TM) 64-Bit Server VM 25.66-b17, Java(TM) SE Runtime Environment 1.8.0_66-b17
+  Scala : version 2.11.7
+  Ensime : 0.9.10-SNAPSHOT
+16:03:57.856 [main] INFO  org.ensime.server.Server - Creating portfile /Users/rk/Developer/Scala/HelloWorld/.ensime_cache/port
+16:03:57.856 [main] INFO  org.ensime.server.Server - creating portfile /Users/rk/Developer/Scala/HelloWorld/.ensime_cache/port
+16:03:57.870 [default-akka.actor.default-dispatcher-2] DEBUG o.ensime.server.Project$ProjectActor - started (org.ensime.server.Project$ProjectActor@7866081a)
+16:03:57.885 [main] INFO  o.a.c.v.i.StandardFileSystemManager - Using "/var/folders/m7/cw4w1yc11pv_t25pmlyqc4qm0000gn/T/vfs_cache" as temporary files store.
+16:03:58.353 [main] INFO  org.ensime.indexer.DatabaseService - creating the search database
+16:03:58.586 [main] WARN  com.jolbox.bonecp.BoneCPConfig - JDBC username was not set in config!
+16:03:58.586 [main] WARN  com.jolbox.bonecp.BoneCPConfig - JDBC password was not set in config!
+16:03:58.891 [main] INFO  org.ensime.indexer.SearchService - removing 0 stale files from the index
+16:03:58.907 [default-akka.actor.default-dispatcher-3] DEBUG org.ensime.server.Indexer - started (org.ensime.server.Indexer@582916d5)
+16:03:58.951 [pool-2-thread-2] DEBUG org.ensime.indexer.SearchService - indexing file:///Library/Java/JavaVirtualMachines/jdk1.8.0_66.jdk/Contents/Home/jre/lib/rt.jar
+16:03:58.951 [pool-2-thread-4] DEBUG org.ensime.indexer.SearchService - indexing file:///Users/rk/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.7.jar
+16:03:59.054 [default-akka.actor.default-dispatcher-3] INFO  org.ensime.server.Analyzer - Presentation Compiler settings:
+Settings {
+  -verbose = false
+  -d = .
+  -feature = true
+  -Ypresentation-verbose = false
+  -Ywarn-numeric-widen = true
+  -bootclasspath = /Users/rk/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.7.jar
+  -usejavacp = false
+  -Xfuture = true
+  -Yno-adapted-args = true
+  -Ywarn-unused-import = true
+  -deprecation = true
+  -Xlint = LintWarnings.ValueSet(adapted-args, nullary-unit, inaccessible, nullary-override, infer-any, missing-interpolator, doc-detached, private-shadow, type-parameter-shadow, poly-implicit-overload, option-implicit, delayedinit-select, by-name-right-associative, package-object-classes, unsound-match, stars-align)
+  -Ypresentation-debug = false
+  -Yinline-warnings = true
+  -Ywarn-dead-code = true
+  -classpath = /Users/rk/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.7.jar:/Users/rk/Developer/Scala/HelloWorld/target/scala-2.11/classes:/Users/rk/Developer/Scala/HelloWorld/target/scala-2.11/test-classes
+}
+
+16:04:00.087 [default-akka.actor.default-dispatcher-3] DEBUG org.ensime.server.Analyzer - started (org.ensime.server.Analyzer@3cea9d88)
+16:04:00.135 [default-akka.actor.default-dispatcher-5] DEBUG org.ensime.server.Analyzer - Analyzer ready in 0.049 seconds.
+16:04:03.187 [Thread-11] INFO  org.ensime.server.Server - Got connection, creating handler...
+16:04:03.191 [default-akka.actor.default-dispatcher-2] DEBUG org.ensime.server.SocketHandler - started (org.ensime.server.SocketHandler@470df40d)
+16:04:03.216 [default-akka.actor.default-dispatcher-3] INFO  org.ensime.protocol.SwankProtocol - Received msg: (:swank-rpc (swank:connection-info) 1)
+16:04:03.218 [default-akka.actor.default-dispatcher-3] INFO  org.ensime.protocol.SwankProtocol - Writing: (:return (:ok (:pid nil :implementation (:name "ENSIME-ReferenceServer") :version "0.8.9")) 1)
+16:04:10.023 [ForkJoinPool-2-worker-5] DEBUG org.ensime.indexer.SearchService - committing index to disk...
+16:04:10.024 [ForkJoinPool-2-worker-7] DEBUG org.ensime.server.Project - indexed 5 and removed 0
+16:04:10.543 [ForkJoinPool-2-worker-5] DEBUG org.ensime.indexer.SearchService - ...done committing index
