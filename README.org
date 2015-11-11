@@ -1,0 +1,5 @@
+This is a minimal sbt project in Scala.  Its current primary use is to
+debug an issue with the Ensime for Emacs.
+
+@fommil: I've included a small screencast of the Emacs behavior here:
+https://github.com/tharpa/HelloWorld/blob/master/ensime-problem.m4v
